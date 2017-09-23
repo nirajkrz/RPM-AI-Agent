@@ -18,7 +18,7 @@ On 2x2 problems, the agent sovled 11/12 of the basic problems, and 2/8 of the ch
 | Problem Set   | Results       | %     |
 | ------------- |:-------------:| -----:|
 | Basic Set     |      11/12    | 91.7% |
-| Challenge Se  |       2/8     |  25%  |
+| Challenge Set |       2/8     |  25%  |
 | Unseen Set    |      17/20    |  85%  |
 
 ## Using The Agent
