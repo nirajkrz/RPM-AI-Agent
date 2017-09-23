@@ -9,7 +9,7 @@ The Raven's Progressive Matrices test (RPM) is a commonly used intelligence test
 The agent was designed to mimic human reasoning by using multiple different approaches to problem solving, similar to the way people solve RPMs (Hunt 1974).  The agent relies on a three layered approach to finding solutions.  The first layer searches for obvious patterns where the agent can propose an answer that can be explicitly searched for in the list of possible solution cells.  The second layer provides a filter for the possible solution cells, and removes cells that violate the observed patterns.  The third layer generates attributes for a proposed solution and analyzes the remaining solutions for similarity to the proposed solution attributes, and returns the solution with the highest similarity score.  Each layer is able to help in a way that the other layers cannot, and when combined, can solve problems with a high degree of accuracy.
 
 <p align="center">
-[![layers.png](https://s26.postimg.org/xnlezwqyh/layers.png)](https://postimg.org/image/nqae6ujcl/)
+    <img src="https://s26.postimg.org/xnlezwqyh/layers.png">
 </p>
 
 ### How Well Does The Agent Work?
