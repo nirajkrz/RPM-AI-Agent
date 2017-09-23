@@ -1,6 +1,6 @@
 # Artificial Intelligence Agent For Solving Raven's Progressive Matrices
 
-## What Are Raven's Progressive Matrices?
+### What Are Raven's Progressive Matrices?
 The Raven's Progressive Matrices test (RPM) is a commonly used intelligence test based on visual reasoning. RPMs involve 2x2 or 3x3 matrices with each cell containing different shapes and relationships.  The cell that completes the pattern has to be chosen from a list of six or eight possible solution cells.  While these problems are purely visual, they provide a good test of general intelligence.  The agent described in this paper was designed to mimic human reasoning by using multiple different approaches to problem solving, similar to the way people solve RPMs. (The correct answer below is 4)
 
 [![problem_5.png](https://s26.postimg.org/gyjz3zud5/problem_5.png)](https://postimg.org/image/ho2rgcuwl/)
