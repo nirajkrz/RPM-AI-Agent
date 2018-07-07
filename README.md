@@ -3,14 +3,12 @@
 ### What Are Raven's Progressive Matrices?
 The Raven's Progressive Matrices test (RPM) is a commonly used intelligence test based on visual reasoning. RPMs involve 2x2 or 3x3 matrices with each cell containing different shapes and relationships.  The cell that completes the pattern has to be chosen from a list of six or eight possible solution cells.  While these problems are purely visual, they provide a good test of general intelligence. (The correct answer below is 4)
 
-[![problem_5.png](img/problem.png)
+![problem_5.png](img/problem.png)
 
 ## How Does The Agent Work?
 The agent was designed to mimic human reasoning by using multiple different approaches to problem solving, similar to the way people solve RPMs.  The agent relies on a three layered approach to finding solutions.  The first layer searches for obvious patterns where the agent can propose an answer that can be explicitly searched for in the list of possible solution cells.  The second layer provides a filter for the possible solution cells, and removes cells that violate the observed patterns.  The third layer generates attributes for a proposed solution and analyzes the remaining solutions for similarity to the proposed solution attributes, and returns the solution with the highest similarity score.  Each layer is able to help in a way that the other layers cannot, and when combined, can solve problems with a high degree of accuracy.
 
-<p align="center">
-    <img src="img/layers.png">
-</p>
+![problem_5.png](img/layers.png)
 
 ## How Accurate Is The Agent?
 On 2x2 problems, the agent sovled 11/12 of the basic problems, and 2/8 of the challenge problems.  For a set of problems it had never seen before, the agent scored 17/20.
